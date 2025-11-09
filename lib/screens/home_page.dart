@@ -5,6 +5,7 @@ import 'dart:convert';
 import '../widgets/create_task_sheet.dart';
 import '../services/auth_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'about_team_screen.dart';
 
 class HomePage extends StatefulWidget {
   final List<Map<String, dynamic>> groups;
@@ -383,6 +384,23 @@ class _HomePageState extends State<HomePage> {
                           ],
                         ),
                         const SizedBox(width: 8),
+
+                        IconButton(
+                          icon: const Icon(
+                            Icons.info_outline,
+                            color: Colors.blueAccent,
+                          ),
+                          tooltip: 'About Team',
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => const AboutTeamScreen(),
+                              ),
+                            );
+                          },
+                        ),
+
                         ElevatedButton.icon(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.blueAccent,
