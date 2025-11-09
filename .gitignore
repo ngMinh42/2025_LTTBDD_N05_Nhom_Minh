@@ -1,0 +1,82 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VSCode (giữ lại nếu bạn không muốn chia sẻ config)
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.fvm/
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android Studio build artifacts
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/captures/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS and macOS
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/build/
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/build/
+
+# Linux & Windows builds
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Web build
+**/web/.dart_tool/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+*.app
+*.dill
+*.so
+
+# Other
+Thumbs.db
+*.lock.hive
